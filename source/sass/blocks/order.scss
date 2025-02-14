@@ -1,0 +1,33 @@
+.order {
+  display: flex;
+  max-width: 280px;
+  justify-content: center;
+
+  @media (min-width: $desktop-width) {
+    justify-content: flex-start;
+  }
+}
+
+
+.order__price {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 0;
+  line-height: 32px;
+
+  &--old {
+    font-size: 16px;
+    color: $color-purple-1;
+    text-decoration: line-through;
+    margin-right: 6px;
+  }
+
+  &--new {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.order__button {
+  margin-left: 20px;
+}

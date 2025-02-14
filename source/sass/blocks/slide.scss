@@ -1,0 +1,141 @@
+.slide {
+  text-align: center;
+  padding: 20px 20px 60px;
+
+  &--1 {
+    background-color: $color-white-1;
+
+    @media (min-width: $tablet-width) {
+      background: linear-gradient($color-white-1 640px, $color-white 640px);
+    }
+
+    @media (min-width: $desktop-width) {
+      background: none;
+      background-color: $color-white-1;
+    }
+  }
+
+  &--2 {
+    background-color: $color-purple-5;
+
+    @media (min-width: $tablet-width) {
+      background: linear-gradient($color-purple-5 640px, $color-white 640px);
+    }
+
+    @media (min-width: $desktop-width) {
+      background: none;
+      background-color: $color-purple-5;
+    }
+  }
+
+  &--3 {
+    background-color: $color-grey-4;
+
+    @media (min-width: $tablet-width) {
+      background: linear-gradient($color-grey-4 640px, $color-white 640px);
+    }
+
+    @media (min-width: $desktop-width) {
+      background: none;
+      background-color: $color-grey-4;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 65px;
+  }
+}
+
+.slide__wrapper {
+  @media (min-width: $desktop-width) {
+    text-align: left;
+    margin: 150px 0 auto;
+  }
+}
+
+.slide__image {
+  display: block;
+  height: 100%;
+  width: 280px;
+  margin: 0 auto 6px;
+
+  @media (min-width: $tablet-width) {
+    width: 476px;
+    order: 1;
+    margin-bottom: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 600px;
+    order: 0;
+    margin-left: 85px;
+  }
+}
+
+.slide__title {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: bold;
+  margin: 6px 0 9px 0;
+  letter-spacing: 0.04rem;
+
+  @media (min-width: $tablet-width) {
+    font-size: 56px;
+    line-height: 80px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    letter-spacing: 0.07rem;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}
+
+.slide__text {
+  max-width: $mobile-max-width;
+  margin: 0 auto 20px auto;
+
+  @media (min-width: $tablet-width) {
+    max-width: $desktop-width;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0 80px 20px 80px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 625px;
+    margin: 0 0 40px 0;
+  }
+}
+
+.slide__order {
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+  }
+}
+
+.slide__badge {
+  @media (min-width: $desktop-width) {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+}

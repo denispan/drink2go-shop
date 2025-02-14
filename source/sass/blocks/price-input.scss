@@ -1,0 +1,35 @@
+.price-input {
+  width: 125px;
+  font-family: $font-custom;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 6px 10px;
+  border: 2px solid $color-purple-3;
+  border-radius: 4px;
+  color: $color-black-3;
+  outline: none;
+
+  &::placeholder {
+    color: $color-grey-3;
+  }
+
+  &:hover,
+  &:focus {
+    border: 2px solid $color-purple-4;
+  }
+
+  &:disabled {
+    border-color: $color-grey-2;
+    background-color: transparent;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 96px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 136px;
+  }
+}

@@ -1,0 +1,71 @@
+.sort-form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    justify-content: flex-end;
+  }
+}
+
+.sort-form__wrapper {
+  position: relative;
+  width: 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 6px;
+    background-image: url("../img/sort-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: auto;
+  }
+}
+
+.sort-form__title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: auto 9px auto 0;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 12px;
+  }
+}
+
+.sort-form__select {
+  position: relative;
+  font-family: $font-custom;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: $color-purple-1;
+  margin: auto 0;
+  padding: 4px 0 4px 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  appearance: none;
+
+  &:hover,
+  &:focus {
+    border: none;
+    outline: none;
+    background-color: $color-purple-2;
+  }
+
+  &:active {
+    border: none;
+    background-color: transparent;
+  }
+}
