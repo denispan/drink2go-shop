@@ -2,7 +2,8 @@
 
 [denispan.github.io/drink2go-shop](https://denispan.github.io/drink2go-shop/) </br></br>
 
-<strong>Главная страница современного интернет-магазина кофейных напитков Drink2Go.</strong>
+<strong>Главная страница современного интернет-магазина кофейных напитков Drink2Go.</strong></br>
+Данные из формы фильтра и сортировки отправляются на мой сервер и возвращаются для проверки.
 
 ### Ключевые особенности
 
@@ -14,7 +15,7 @@
 ### [Главная страница](https://denispan.github.io/drink2go-shop/)
 | Desktop | Tablet | Mobile |
 |:---------------:|:--------------:|:----------------:|
-| <img width="300" alt="Desktop version" src="https://github.com/user-attachments/assets/0e2274fd-c20d-4a38-bb66-460847b2949a" /> | <img width="200" alt="Tablet version" src="https://github.com/user-attachments/assets/58c59b62-1faf-4c85-a5ba-9806f90f4034" /> | <img width="150" alt="Mobile version" src="https://github.com/user-attachments/assets/d72bb8ae-ace4-495c-aba4-5dae11da9e0b" /> |
+| <img width="300" alt="Desktop version" src="https://github.com/user-attachments/assets/d8eb2bbf-48e0-480c-9fb7-6ff8bc768e46" /> | <img width="200" alt="Tablet version" src="https://github.com/user-attachments/assets/77327186-2d61-4dd9-a4be-d010c350a750" /> | <img width="150" alt="Mobile version" src="https://github.com/user-attachments/assets/76632724-4493-47b2-b203-3a056c7c21bf" /> |
 
 
 ## Технологии
